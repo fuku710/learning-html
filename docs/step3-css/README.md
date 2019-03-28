@@ -209,11 +209,11 @@ body {
 }
 
 #ramen {
-  background: green;
+  background: lightgreen;
 }
 
 #hamburg-steak {
-  background: blue;
+  background: lightblue;
 }
 ```
 
