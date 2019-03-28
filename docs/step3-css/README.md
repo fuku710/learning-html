@@ -162,6 +162,12 @@ margin が外側の余白、padding が内側の余白という感じです
   margin-bottom: 4px;
 }
 
+/* ulはデフォルトでpaddingがかかっているので0pxにして無効化 */
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+}
 /* 
 li要素にpaddingとmarginを設定
 枠線をつけてpaddingの効果をわかりやすく
